@@ -9,9 +9,9 @@ public class PlayersController : ControllerBase
 {
     private static readonly List<Player> _players = new()
     {
-        new() { Id = ++_nextPlayerId, Name = "Khalidou" },
+        new() { Id = ++_nextPlayerId, Name = "Khalid" },
         new() { Id = ++_nextPlayerId, Name = "Thomason" },
-        new() { Id = ++_nextPlayerId, Name = "Massiolo" }
+        new() { Id = ++_nextPlayerId, Name = "Alex" }
     };
     private static int _nextPlayerId = 0;
 
